@@ -1,0 +1,27 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  color: #5952ab !important
+}
+
+.MuiTypography-h1 {
+  font-size: 2rem !important;
+  color: #f7af82
+}
+
+.MuiTypography-h5 {
+  font-size: 1.2rem !important;
+  color: #f7af82
+}
+
+.MuiCircularProgress-svg {
+  color: #ffffff;
+}
+
+.MuiCircularProgress-root {
+  margin-right: 10px !important;
+  width: 15px !important;
+  height: 15px !important;
+}

@@ -1,0 +1,41 @@
+.home {
+    padding: 100px 0px;
+    max-width: 70% !important;
+}
+
+.form-search {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    gap: 10px
+}
+
+.button-search {
+    background-image: -webkit-linear-gradient(63deg, #5952ab, #4f7eb8);
+    height: 36px;
+    min-width: 64px;
+    padding: 0 16px;
+}
+
+.button-search:disabled {
+    color: #ffffff !important;
+}
+
+.Mui-focused {
+    color: #5952ab !important;
+}
+
+.Mui-focused fieldset {
+    color: #5952ab !important;
+    border-color: #5952ab !important;
+}
+
+.MuiInputBase-root {
+    color: #5952ab !important;
+    height: 36px;
+    line-height: 0px;
+}
+
+.MuiFormLabel-root {
+    top: -8px !important;
+}

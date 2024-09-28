@@ -1,0 +1,55 @@
+.MuiCardMedia-img {
+    object-fit: cover;
+}
+
+/* Tarjetas de usuario */
+.MuiCard-root {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 6px -3px rgba(0, 0, 0, .2),
+        0 9px 12px 1px rgba(0, 0, 0, .14),
+        0 3px 16px 2px rgba(0, 0, 0, .12) !important;
+    border-radius: 10px;
+}
+
+.MuiCardContent-root {
+    padding: 5px 16px !important;
+
+}
+
+.MuiCardContent-root .MuiTypography-root {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: auto;
+}
+
+.MuiCardContent-root .MuiTypography-body2 {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: auto;
+    color: #5952ab;
+}
+
+.button-link {
+    background-image: -webkit-linear-gradient(63deg, #5952ab, #4f7eb8);
+    height: 36px;
+    width: 100%;
+    padding: 0 16px;
+    color: #ffffff !important;
+    font-size: 0.8rem !important;
+    margin: 0px 10px 10px !important;
+}
+
+.button-link:hover {
+    box-shadow: 0 3px 5px 2px rgba(0, 0, 0, .2),
+        0 2px 2px 0 rgba(0, 0, 0, .14),
+        0 1px 5px 0 rgba(0, 0, 0, .12);
+    cursor: pointer;
+}
+
+.button-link svg {
+    margin-left: 10px;
+}
